@@ -140,6 +140,9 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
+
+    // exclude python scripts
+    exclude '**/*.py'
 }
 
 // build the storage space for each computer scripts

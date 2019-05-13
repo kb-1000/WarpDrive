@@ -10,22 +10,18 @@ death.attack.warpdrive.laser.player=%1$s wurde von %2$s zu Tode gelasert
 death.attack.warpdrive.shock=%1$s starb an einen Stromschlag
 death.attack.warpdrive.shock.player=%1$s wurde von %2$s zu Tode geschockt
 death.attack.warpdrive.teleportation=%1$s wurde in seine Atome zerlegt
-death.attack.warpdrive.teleportation.player=%1$s wurde durch %2$s beim teleportieren getötet
+death.attack.warpdrive.teleportation.player=%1$s wurde durch %2$s beim Teleportieren getötet
 death.attack.warpdrive.warm=%1$s verglühte
 death.attack.warpdrive.warm.player=%1$s wurde von %2$s gebruzelt
 
-itemGroup.warpdrive.hull=WarpDrive's rumpfs
+itemGroup.warpdrive.hull=WarpDrive: Schiffshüllen
 itemGroup.warpdrive.main=WarpDrive
 
 item.warpdrive.component.malformed.name=Fehlerhaftes Item
 item.warpdrive.component.memory_crystal.name=Speicherkristall
-item.warpdrive.component.memory_cluster.name=Memory Cluster
-
+item.warpdrive.component.capacitive_crystal.name=Kapazitätskristall
 item.warpdrive.component.diamond_crystal.name=Diamantkristall
 item.warpdrive.component.emerald_crystal.name=Smaragdkristall
-
-item.warpdrive.component.capacitive_crystal.name=Kapazitätskristall
-item.warpdrive.component.capacitive_cluster.name=Capacitive Cluster
 
 item.warpdrive.component.ender_coil.name=Enderkristall
 item.warpdrive.component.diamond_coil.name=Spulenkristall
@@ -34,7 +30,7 @@ item.warpdrive.component.computer_interface.name=Computer Schnittstelle
 item.warpdrive.component.bone_charcoal.name=Knochenkohle
 item.warpdrive.component.activated_carbon.name=Aktivkohle
 item.warpdrive.component.air_canister_empty.name=Leerer Luftkanister
-item.warpdrive.component.air_canister_empty.tooltip=§bRechtsklicke einen Luftgenerator§r um mich zu füllen
+item.warpdrive.component.air_canister_empty.tooltip=§bRechtsklicke einen Luftgenerator um mich zu füllen
 
 item.warpdrive.component.flat_screen.name=Flatscreen
 item.warpdrive.component.holographic_projector.name=Holographic projector
@@ -58,24 +54,12 @@ item.warpdrive.component.raw_rubber.name=Raw rubber clump
 item.warpdrive.component.raw_rubber.tooltip=Harvested from Jungle wood with Laser tree farm
 item.warpdrive.component.rubber.name=Rubber
 
-item.warpdrive.component.biopulp.name=Biopulp
-item.warpdrive.component.biofiber.name=Biofiber
-
-item.warpdrive.component.raw_ceramic.name=Raw Ceramic
-item.warpdrive.component.ceramic.name=Ceramic
-
-item.warpdrive.component.raw_carbon_fiber.name=Raw Carbon fiber
-item.warpdrive.component.raw_carbon_mesh.name=Raw Carbon Mesh
-item.warpdrive.component.carbon_fiber.name=Carbon Fiber
-
 item.warpdrive.armor.helmet.name=Warp Helm
 item.warpdrive.armor.chestplate.name=Warp Brustpanzer
 item.warpdrive.armor.leggings.name=Warp Beinschutz
 item.warpdrive.armor.boots.name=Warp Stiefel
 
-item.warpdrive.atomic.electromagnetic_cell.basic.name=Standard Elektromagnetische Zelle
-item.warpdrive.atomic.electromagnetic_cell.advanced.name=Weiterentwickelter Elektromagnetische Zelle
-item.warpdrive.atomic.electromagnetic_cell.superior.name=Überlegener Elektromagnetische Zelle
+item.warpdrive.atomic.electromagnetic_cell.name=Elektromagnetische Zelle
 item.warpdrive.atomic.electromagnetic_cell.tooltip.empty=Nutze einen Teilchenbeschleuniger, um mich zu füllen!
 item.warpdrive.atomic.electromagnetic_cell.tooltip.filled=Enthält %1$s Å³ %2$s
 
@@ -83,7 +67,7 @@ item.warpdrive.breathing.air_tank.canister.name=Luftkanister
 item.warpdrive.breathing.air_tank.basic.name=Basic Air Tank !!!
 item.warpdrive.breathing.air_tank.advanced.name=Advanced Air Tank !!!
 item.warpdrive.breathing.air_tank.superior.name=Superior Air Tank !!!
-item.warpdrive.breathing.air_tank.tooltip.usage=§bRechtsklicke einen Luftgenerator§r um mich zu füllen
+item.warpdrive.breathing.air_tank.tooltip.usage=§bRechtsklicke einen Luftgenerator um mich zu füllen
 
 item.warpdrive.energy.IC2reactorLaserFocus.name=IC2 Reaktor-Laser-Fokus
 
@@ -103,7 +87,7 @@ item.warpdrive.force_field.shape.tube.name=Röhren Form
 item.warpdrive.force_field.shape.tube.tooltip=
 item.warpdrive.force_field.shape.tunnel.name=Tunnel Form
 item.warpdrive.force_field.shape.tunnel.tooltip=
-item.warpdrive.force_field.shape.tooltip.usage=§bRechtsklicke§r einen Projektor um ihn aufzuwerten\n§bSchleich-Rechtsklicke§r zum abwerten
+item.warpdrive.force_field.shape.tooltip.usage=§bRechtsklicke einen Projektor§7 um ihn aufzuwerten\n§bSchleich-Rechtsklicke§7 zum abwerten
 
 item.warpdrive.force_field.upgrade.none.name=Kein Upgrade
 item.warpdrive.force_field.upgrade.none.tooltip=§4Ungültiges Item
@@ -143,9 +127,9 @@ item.warpdrive.force_field.upgrade.thickness.name=Stärke Upgrade
 item.warpdrive.force_field.upgrade.thickness.tooltip=Erhöhe die Dicke des Kraftfelds. Mehr Upgrades verstärken den Effekt (bis zu 2x).
 item.warpdrive.force_field.upgrade.translation.name=Translations Upgrade
 item.warpdrive.force_field.upgrade.translation.tooltip=Aktiviert Kraftfeld Translation.
-item.warpdrive.force_field.upgrade.tooltip.usage.projector=§bRechtsklicke einen Projektor§r um ihn aufzuwerten
-item.warpdrive.force_field.upgrade.tooltip.usage.relay=§bRechtsklicke ein Realais§r um es aufzuwerten
-item.warpdrive.force_field.upgrade.tooltip.usage.dismount=§bSchleich-Rechtsklicke§r zum abwerten
+item.warpdrive.force_field.upgrade.tooltip.usage.projector=§bRechtsklicke einen Projektor§7 um ihn aufzuwerten
+item.warpdrive.force_field.upgrade.tooltip.usage.relay=§bRechtsklicke ein Realais§7 um es aufzuwerten
+item.warpdrive.force_field.upgrade.tooltip.usage.dismount=§bSchleich-Rechtsklicke§7 zum abwerten
 
 item.warpdrive.upgrade.Power.name=Power Upgrade
 item.warpdrive.upgrade.Speed.name=Geschwindigkeits Upgrade
@@ -153,9 +137,11 @@ item.warpdrive.upgrade.Range.name=Reichweiten Upgrade
 item.warpdrive.upgrade.Energy.name=Energie Upgrade
 
 
+item.warpdrive.tool.crystalToken.tooltip_new=Crystal encapsulation of ship '%1$s'\n§bEnter the red builder's field§7 to claim a ship
+
 item.warpdrive.tool.ship_token.name=Schiffes token
-item.warpdrive.tool.ship_token.tooltip.usage=Token exchangeable for ship '%1$s'\n§bEnter a builder's field§r to claim it
-item.warpdrive.tool.ship_token.tooltip_legacyTranslation=Kristall Kapsel des Schiffes '%1$s'\n§bBetritt das Scanner Feld§r um das Schiff zu bauen.
+item.warpdrive.tool.ship_token.tooltip.usage=Token exchangeable for ship '%1$s'\n§bEnter a builder's field§7 to claim it
+item.warpdrive.tool.ship_token.tooltip_legacyTranslation=Kristall Kapsel des Schiffes '%1$s'\n§bBetritt das Scanner Feld§7 um das Schiff zu bauen.
 item.warpdrive.tool.ship_token0.name=Schiffes token #0
 item.warpdrive.tool.ship_token1.name=Schiffes token #1
 item.warpdrive.tool.ship_token2.name=Schiffes token #2
@@ -192,7 +178,7 @@ item.warpdrive.tool.tuning_driver.video_channel.name=Videokanal Werkzeug
 item.warpdrive.tool.tuning_driver.beam_frequency.name=Strahlfrequenz Werkzeug
 item.warpdrive.tool.tuning_driver.control_channel.name=Steuerungskanal Werkzeug
 
-item.warpdrive.tool.tuning_driver.tooltip.usage=§bRechtsklicke einen Block§r um seine Kristalle einzustellen\n§bSchleiche§r um seinen Wert zu erfahren\n§bRechtsklicke die Luft§r um den Modus zu ändern
+item.warpdrive.tool.tuning_driver.tooltip.usage=§bRechtsklicke einen Block§7 um seine Kristalle einzustellen\n§bSchleiche§7 um seinen Wert zu erfahren\n§bRechtsklicke die Luft§7 um den Modus zu ändern
 
 
 item.warpdrive.tool.tuning_fork.name=Stimmgabel
@@ -213,26 +199,22 @@ item.warpdrive.tool.tuning_fork.green.name=Grüne Stimmgabel
 item.warpdrive.tool.tuning_fork.red.name=Rote Stimmgabel
 item.warpdrive.tool.tuning_fork.black.name=Schwarze Stimmgabel
 
-item.warpdrive.tool.tuning_fork.tooltip.usage=§bRecktsklicke einen Block§r um seine Kristalle einzustellen\n§bSchleiche§r um alternative Kristalle einzustellen
+item.warpdrive.tool.tuning_fork.tooltip.usage=§bRecktsklicke einen Block§7 um seine Kristalle einzustellen\n§bSchleiche§7 um alternative Kristalle einzustellen
 
 
 item.warpdrive.tool.wrench.name=Wrench
-item.warpdrive.tool.wrench.tooltip=§bRight click a block§r to rotate it
+item.warpdrive.tool.wrench.tooltip=§bRight click a block§7 to rotate it
 
 
 tile.warpdrive.decoration.bedrock_glass.name=Bedrock Glass !!!
-tile.warpdrive.decoration.decorative.plain.name=Plain metal decoration
-tile.warpdrive.decoration.decorative.grated.name=Grated metal decoration
-tile.warpdrive.decoration.decorative.glass.name=Grated glass decoration
-tile.warpdrive.decoration.decorative.stripes_black_down.name=Black & yellow stripes down
-tile.warpdrive.decoration.decorative.stripes_black_up.name=Black & yellow stripes up
-tile.warpdrive.decoration.decorative.stripes_yellow_down.name=Yellow & black stripes down
-tile.warpdrive.decoration.decorative.stripes_yellow_up.name=Yellow & black stripes up
+tile.warpdrive.decoration.decorative.energized.name=Energiegeladener Block
+tile.warpdrive.decoration.decorative.network.name=Netzwerk Block
+tile.warpdrive.decoration.decorative.plain.name=Ebenen Block
 tile.warpdrive.decoration.gas.name=Gas Block
 tile.warpdrive.decoration.lamp_bubble.name=Bubble Lamp !!!
 tile.warpdrive.decoration.lamp_flat.name=Flat Lamp !!!
 tile.warpdrive.decoration.lamp_long.name=Long Lamp !!!
-item.warpdrive.decoration.lamp.tooltip.usage=§bRight click§r to light on/off !!!
+item.warpdrive.decoration.lamp.tooltip.usage=§bRight click§7 to light on/off !!!
 
 tile.warpdrive.passive.iridium_block.name=Iridium Block
 tile.warpdrive.passive.highly_advanced_machine.name=Stark weiterentwickelter Maschinen Block
@@ -345,314 +327,340 @@ tile.warpdrive.force_field.relay.superior.name=Überlegenes Kraftfeld Relais
 tile.warpdrive.force_field.relay.superior.tooltip=Unterstützt bis zu 1 Upgrade im Netzwerk
 
 tile.warpdrive.movement.lift.name=Lift
-
-tile.warpdrive.movement.ship_controller.basic.name=Remote Shuttle Raumschiff Steuerung
-tile.warpdrive.movement.ship_controller.advanced.name=Remote Corvette Raumschiff Steuerung
-tile.warpdrive.movement.ship_controller.superior.name=Remote Frigate Raumschiff Steuerung
-tile.warpdrive.movement.ship_controller.exceptional.name=Remote Capital Raumschiff Steuerung
-tile.warpdrive.movement.ship_controller.legendary.name=Remote Planetary Raumschiff Steuerung
-tile.warpdrive.movement.ship_controller.tooltip=Optional block to control a ship core remotely. Schließe einen Computer an, um das Interface zu öffnen.
-tile.warpdrive.movement.ship_controller.away_from_core=Remote controller is for remote usage, also they're optional now...
-
+tile.warpdrive.movement.ship_controller.basic.name=Shuttle Raumschiff Steuerung
+tile.warpdrive.movement.ship_controller.advanced.name=Corvette Raumschiff Steuerung
+tile.warpdrive.movement.ship_controller.superior.name=Frigate Raumschiff Steuerung
+tile.warpdrive.movement.ship_controller.exceptional.name=Capital Raumschiff Steuerung
+tile.warpdrive.movement.ship_controller.legendary.name=Planetary Raumschiff Steuerung
+tile.warpdrive.movement.ship_controller.tooltip=Link to a ship core to control it remotely. Schließe einen Computer an, um das Interface zu öffnen.
 tile.warpdrive.movement.ship_core.basic.name=Shuttle Raumschiff Kern
 tile.warpdrive.movement.ship_core.advanced.name=Corvette Raumschiff Kern
 tile.warpdrive.movement.ship_core.superior.name=Frigate Raumschiff Kern
 tile.warpdrive.movement.ship_core.exceptional.name=Capital Raumschiff Kern
 tile.warpdrive.movement.ship_core.legendary.name=Planetary Raumschiff Kern
 tile.warpdrive.movement.ship_core.tooltip=Defines your ship center. Schließe eine Energiequelle an, um den Kern zu laden. Schließe einen Computer an, um das Interface zu öffnen.
-tile.warpdrive.movement.ship_core.bounding_box.disabled=Bounding box display have been disabled.
-tile.warpdrive.movement.ship_core.bounding_box.enabled=Bounding box display is now enabled. Only you can see it.\n§bSneak right-click the Ship core§r to disable it.
-tile.warpdrive.movement.ship_core.tooltip.constrains=Size is up to %1$d x %1$d x %1$d blocks.\nMass is %2$d to %3$d tons.\nMass on a planet is %4$d tons max.\nMass to engage warp is %5$d tons min.
 
+tile.warpdrive.movement.ship_core.bounding_box.disabled=Bounding box display have been disabled.
+tile.warpdrive.movement.ship_core.bounding_box.enabled=Bounding box display is now enabled. Only you can see it.\nSneak right-click the Ship core again to disable it.
 tile.warpdrive.movement.transporter_beacon.name=Transporter Leuchtfeuer
-tile.warpdrive.movement.transporter_beacon.tooltip=§bRight click a Transporter Core§r to set its remote location.\n§bSneak§r to retrieve its signature.\n§bPlace as a block§r to trigger emergency transportation.
+tile.warpdrive.movement.transporter_beacon.tooltip=§bRight click a Transporter Core§7 to set its remote location\n§bSneak§7 to retrieve its signature\n§bPlace as a block§7 to trigger emergency transportation
 tile.warpdrive.movement.transporter_containment.name=Transporter Containment
 tile.warpdrive.movement.transporter_core.name=Transporter Core
 tile.warpdrive.movement.transporter_scanner.name=Transporter Scanner
 
-tile.warpdrive.weapon.laser_camera.name=Laser und Kamera
+tile.warpdrive.weapon.laser_camera.name=Laser mit Kamera
 tile.warpdrive.weapon.weapon_controller.name=Waffen Steuerung
 
 
+# HULLS FORMAT: {color}{shape_end} {tier}{shape_end} {shape}
+# HULLS TIER: basic normale
+# HULLS TIER: advanced weiterentwickelte
+# HULLS TIER: superior überlegene
 
-tile.warpdrive.hull.basic.plain.white.name=Weißer Standard Rumpf
-tile.warpdrive.hull.basic.plain.orange.name=Oranger Standard Rumpf
-tile.warpdrive.hull.basic.plain.magenta.name=Magenta Standard Rumpf
-tile.warpdrive.hull.basic.plain.lightBlue.name=Hellblauer Standard Rumpf
-tile.warpdrive.hull.basic.plain.yellow.name=Gelber Standard Rumpf
-tile.warpdrive.hull.basic.plain.lime.name=Hellgrüner Standard Rumpf
-tile.warpdrive.hull.basic.plain.pink.name=Rosa Standard Rumpf
-tile.warpdrive.hull.basic.plain.gray.name=Grauer Standard Rumpf
-tile.warpdrive.hull.basic.plain.silver.name=Silberner Standard Rumpf
-tile.warpdrive.hull.basic.plain.cyan.name=Cyan Standard Rumpf
-tile.warpdrive.hull.basic.plain.purple.name=Lila Standard Rumpf
-tile.warpdrive.hull.basic.plain.blue.name=Blauer Standard Rumpf
-tile.warpdrive.hull.basic.plain.brown.name=Brauner Standard Rumpf
-tile.warpdrive.hull.basic.plain.green.name=Grüner Standard Rumpf
-tile.warpdrive.hull.basic.plain.red.name=Roter Standard Rumpf
-tile.warpdrive.hull.basic.plain.black.name=Schwarzer Standard Rumpf
+# HULLS COLOR: white Weiße
+# HULLS COLOR: orange Orange
+# HULLS COLOR: magenta Magenta
+# HULLS COLOR: lightBlue Hellblaue
+# HULLS COLOR: yellow Gelbe
+# HULLS COLOR: lime Hellgrüne
+# HULLS COLOR: pink Rosa
+# HULLS COLOR: gray Graue
+# HULLS COLOR: silver Silberne
+# HULLS COLOR: cyan Cyan
+# HULLS COLOR: purple Lila
+# HULLS COLOR: blue Blaue
+# HULLS COLOR: brown Braune
+# HULLS COLOR: green Grüne
+# HULLS COLOR: red Rote
+# HULLS COLOR: black Schwarze
 
-tile.warpdrive.hull.basic.glass.white.name=Weißer Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.orange.name=Oranger Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.magenta.name=Magenta Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.lightBlue.name=Hellblauer Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.yellow.name=Gelber Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.lime.name=Hellgrüner Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.pink.name=Rosa Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.gray.name=Grauer Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.silver.name=Silberner Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.cyan.name=Cyan Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.purple.name=Lila Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.blue.name=Blauer Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.brown.name=Brauner Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.green.name=Grüner Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.red.name=Roter Standard Glasrumpf
-tile.warpdrive.hull.basic.glass.black.name=Schwarzer Standard Glasrumpf
+# HULLS SHAPE: plain Schiffshülle 
+# HULLS SHAPE: glass Schiffshüllenglas s
+# HULLS SHAPE: omnipanel Schiffshüllen-Omnipanel s
+# HULLS SHAPE: slabs Schiffshüllen-Stufe 
+# HULLS SHAPE: stairs Schiffshüllen-Treppe 
 
-tile.warpdrive.hull.basic.omnipanel.white.name=Weiße Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.orange.name=Orange Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.magenta.name=Magenta Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.lightBlue.name=Hellblaue Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.yellow.name=Gelbe Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.lime.name=Hellgrüne Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.pink.name=Rosa Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.gray.name=Graue Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.silver.name=Silberne Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.cyan.name=Cyan Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.purple.name=Lila Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.blue.name=Blaue Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.brown.name=Braune Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.green.name=Grüne Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.red.name=Rote Standard Omnipanel
-tile.warpdrive.hull.basic.omnipanel.black.name=Schwarze Standard Omnipanel
+# HULLS START
+# WARNING! The content inside "HULLS START" and "HULLS END" is generated and should not be edited manually. Use hulls.py after editing the comments above for this.
+tile.warpdrive.hull.basic.plain.white.name=Weiße normale Schiffshülle
+tile.warpdrive.hull.basic.plain.orange.name=Orange normale Schiffshülle
+tile.warpdrive.hull.basic.plain.magenta.name=Magenta normale Schiffshülle
+tile.warpdrive.hull.basic.plain.lightBlue.name=Hellblaue normale Schiffshülle
+tile.warpdrive.hull.basic.plain.yellow.name=Gelbe normale Schiffshülle
+tile.warpdrive.hull.basic.plain.lime.name=Hellgrüne normale Schiffshülle
+tile.warpdrive.hull.basic.plain.pink.name=Rosa normale Schiffshülle
+tile.warpdrive.hull.basic.plain.gray.name=Graue normale Schiffshülle
+tile.warpdrive.hull.basic.plain.silver.name=Silberne normale Schiffshülle
+tile.warpdrive.hull.basic.plain.cyan.name=Cyan normale Schiffshülle
+tile.warpdrive.hull.basic.plain.purple.name=Lila normale Schiffshülle
+tile.warpdrive.hull.basic.plain.blue.name=Blaue normale Schiffshülle
+tile.warpdrive.hull.basic.plain.brown.name=Braune normale Schiffshülle
+tile.warpdrive.hull.basic.plain.green.name=Grüne normale Schiffshülle
+tile.warpdrive.hull.basic.plain.red.name=Rote normale Schiffshülle
+tile.warpdrive.hull.basic.plain.black.name=Schwarze normale Schiffshülle
 
-tile.warpdrive.hull.basic.slab.white.name=Weiße Standard Stufe
-tile.warpdrive.hull.basic.slab.orange.name=Orange Standard Stufe
-tile.warpdrive.hull.basic.slab.magenta.name=Magenta Standard Stufe
-tile.warpdrive.hull.basic.slab.lightBlue.name=Hellblaue Standard Stufe
-tile.warpdrive.hull.basic.slab.yellow.name=Gelbe Standard Stufe
-tile.warpdrive.hull.basic.slab.lime.name=Hellgrüne Standard Stufe
-tile.warpdrive.hull.basic.slab.pink.name=Rosa Standard Stufe
-tile.warpdrive.hull.basic.slab.gray.name=Graue Standard Stufe
-tile.warpdrive.hull.basic.slab.silver.name=Silberne Standard Stufe
-tile.warpdrive.hull.basic.slab.cyan.name=Cyan Standard Stufe
-tile.warpdrive.hull.basic.slab.purple.name=Lila Standard Stufe
-tile.warpdrive.hull.basic.slab.blue.name=Blaue Standard Stufe
-tile.warpdrive.hull.basic.slab.brown.name=Braune Standard Stufe
-tile.warpdrive.hull.basic.slab.green.name=Grüne Standard Stufe
-tile.warpdrive.hull.basic.slab.red.name=Rote Standard Stufe
-tile.warpdrive.hull.basic.slab.black.name=Schwarze Standard Stufe
+tile.warpdrive.hull.basic.glass.white.name=Weißes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.orange.name=Oranges normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.magenta.name=Magentas normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.lightBlue.name=Hellblaues normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.yellow.name=Gelbes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.lime.name=Hellgrünes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.pink.name=Rosas normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.gray.name=Graues normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.silver.name=Silbernes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.cyan.name=Cyans normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.purple.name=Lilas normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.blue.name=Blaues normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.brown.name=Braunes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.green.name=Grünes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.red.name=Rotes normales Schiffshüllenglas
+tile.warpdrive.hull.basic.glass.black.name=Schwarzes normales Schiffshüllenglas
 
-tile.warpdrive.hull.basic.stairs.white.name=Weiße Standard Treppe
-tile.warpdrive.hull.basic.stairs.orange.name=Orange Standard Treppe
-tile.warpdrive.hull.basic.stairs.magenta.name=Magenta Standard Treppe
-tile.warpdrive.hull.basic.stairs.lightBlue.name=Hellblaue Standard Treppe
-tile.warpdrive.hull.basic.stairs.yellow.name=Gelbe Standard Treppe
-tile.warpdrive.hull.basic.stairs.lime.name=Hellgrüne Standard Treppe
-tile.warpdrive.hull.basic.stairs.pink.name=Rosa Standard Treppe
-tile.warpdrive.hull.basic.stairs.gray.name=Graue Standard Treppe
-tile.warpdrive.hull.basic.stairs.silver.name=Silberne Standard Treppe
-tile.warpdrive.hull.basic.stairs.cyan.name=Cyan Standard Treppe
-tile.warpdrive.hull.basic.stairs.purple.name=Lila Standard Treppe
-tile.warpdrive.hull.basic.stairs.blue.name=Blaue Standard Treppe
-tile.warpdrive.hull.basic.stairs.brown.name=Braune Standard Treppe
-tile.warpdrive.hull.basic.stairs.green.name=Grüne Standard Treppe
-tile.warpdrive.hull.basic.stairs.red.name=Rote Standard Treppe
-tile.warpdrive.hull.basic.stairs.black.name=Schwarze Standard Treppe
+tile.warpdrive.hull.basic.omnipanel.white.name=Weißes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.orange.name=Oranges normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.magenta.name=Magentas normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.lightBlue.name=Hellblaues normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.yellow.name=Gelbes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.lime.name=Hellgrünes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.pink.name=Rosas normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.gray.name=Graues normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.silver.name=Silbernes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.cyan.name=Cyans normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.purple.name=Lilas normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.blue.name=Blaues normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.brown.name=Braunes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.green.name=Grünes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.red.name=Rotes normales Schiffshüllen-Omnipanel
+tile.warpdrive.hull.basic.omnipanel.black.name=Schwarzes normales Schiffshüllen-Omnipanel
 
+tile.warpdrive.hull.basic.slabs.white.name=Weiße normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.orange.name=Orange normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.magenta.name=Magenta normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.lightBlue.name=Hellblaue normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.yellow.name=Gelbe normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.lime.name=Hellgrüne normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.pink.name=Rosa normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.gray.name=Graue normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.silver.name=Silberne normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.cyan.name=Cyan normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.purple.name=Lila normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.blue.name=Blaue normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.brown.name=Braune normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.green.name=Grüne normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.red.name=Rote normale Schiffshüllen-Stufe
+tile.warpdrive.hull.basic.slabs.black.name=Schwarze normale Schiffshüllen-Stufe
 
-tile.warpdrive.hull.advanced.plain.white.name=Weißer weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.orange.name=Oranger weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.magenta.name=Magenta weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.lightBlue.name=Hellblauer weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.yellow.name=Gelber weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.lime.name=Hellgrüner weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.pink.name=Rosa weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.gray.name=Grauer weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.silver.name=Silberner weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.cyan.name=Cyan weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.purple.name=Lila weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.blue.name=Blauer weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.brown.name=Brauner weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.green.name=Grüner weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.red.name=Roter weiterentwickelter Rumpf
-tile.warpdrive.hull.advanced.plain.black.name=Schwarzer weiterentwickelter Rumpf
-
-tile.warpdrive.hull.advanced.glass.white.name=Weißer weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.orange.name=Oranger weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.magenta.name=Magenta weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.lightBlue.name=Hellblauer weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.yellow.name=Gelber weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.lime.name=Hellgrüner weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.pink.name=Rosa weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.gray.name=Grauer weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.silver.name=Silberner weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.cyan.name=Cyan weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.purple.name=Lila weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.blue.name=Blauer weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.brown.name=Brauner weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.green.name=Grüner weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.red.name=Roter weiterentwickelter Glasrumpf
-tile.warpdrive.hull.advanced.glass.black.name=Schwarzer weiterentwickelter Glasrumpf
-
-tile.warpdrive.hull.advanced.omnipanel.white.name=Weiße weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.orange.name=Orange weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.magenta.name=Magenta weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.lightBlue.name=Hellblaue weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.yellow.name=Gelbe weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.lime.name=Hellgrüne weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.pink.name=Rosa weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.gray.name=Graue weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.silver.name=Silberne weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.cyan.name=Cyan weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.purple.name=Lila weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.blue.name=Blaue weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.brown.name=Braune weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.green.name=Grüne weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.red.name=Rote weiterentwickelte Omnipanel
-tile.warpdrive.hull.advanced.omnipanel.black.name=Schwarze weiterentwickelte Omnipanel
-
-tile.warpdrive.hull.advanced.slab.white.name=Weiße weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.orange.name=Orange weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.magenta.name=Magenta weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.lightBlue.name=Hellblaue weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.yellow.name=Gelbe weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.lime.name=Hellgrüne weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.pink.name=Rosa weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.gray.name=Graue weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.silver.name=Silberne weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.cyan.name=Cyan weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.purple.name=Lila weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.blue.name=Blaue weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.brown.name=Braune weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.green.name=Grüne weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.red.name=Rote weiterentwickelte Stufe
-tile.warpdrive.hull.advanced.slab.black.name=Schwarze weiterentwickelte Stufe
-
-tile.warpdrive.hull.advanced.stairs.white.name=Weiße weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.orange.name=Orange weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.magenta.name=Magenta weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.lightBlue.name=Hellblaue weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.yellow.name=Gelbe weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.lime.name=Hellgrüne weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.pink.name=Rosa weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.gray.name=Graue weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.silver.name=Silberne weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.cyan.name=Cyan weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.purple.name=Lila weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.blue.name=Blaue weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.brown.name=Braune weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.green.name=Grüne weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.red.name=Rote weiterentwickelte Treppe
-tile.warpdrive.hull.advanced.stairs.black.name=Schwarze weiterentwickelte Treppe
+tile.warpdrive.hull.basic.stairs.white.name=Weiße normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.orange.name=Orange normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.magenta.name=Magenta normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.lightBlue.name=Hellblaue normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.yellow.name=Gelbe normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.lime.name=Hellgrüne normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.pink.name=Rosa normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.gray.name=Graue normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.silver.name=Silberne normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.cyan.name=Cyan normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.purple.name=Lila normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.blue.name=Blaue normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.brown.name=Braune normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.green.name=Grüne normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.red.name=Rote normale Schiffshüllen-Treppe
+tile.warpdrive.hull.basic.stairs.black.name=Schwarze normale Schiffshüllen-Treppe
 
 
-tile.warpdrive.hull.superior.plain.white.name=Weißer überlegener Rumpf
-tile.warpdrive.hull.superior.plain.orange.name=Oranger überlegener Rumpf
-tile.warpdrive.hull.superior.plain.magenta.name=Magenta überlegener Rumpf
-tile.warpdrive.hull.superior.plain.lightBlue.name=Hellblauer überlegener Rumpf
-tile.warpdrive.hull.superior.plain.yellow.name=Gelber überlegener Rumpf
-tile.warpdrive.hull.superior.plain.lime.name=Lime überlegener Rumpf
-tile.warpdrive.hull.superior.plain.pink.name=Rosa überlegener Rumpf
-tile.warpdrive.hull.superior.plain.gray.name=Grauer überlegener Rumpf
-tile.warpdrive.hull.superior.plain.silver.name=Silberner überlegener Rumpf
-tile.warpdrive.hull.superior.plain.cyan.name=Cyan überlegener Rumpf
-tile.warpdrive.hull.superior.plain.purple.name=Lila überlegener Rumpf
-tile.warpdrive.hull.superior.plain.blue.name=Blauer überlegener Rumpf
-tile.warpdrive.hull.superior.plain.brown.name=Brauner überlegener Rumpf
-tile.warpdrive.hull.superior.plain.green.name=Grüner überlegener Rumpf
-tile.warpdrive.hull.superior.plain.red.name=Roter überlegener Rumpf
-tile.warpdrive.hull.superior.plain.black.name=Schwarzer überlegener Rumpf
+tile.warpdrive.hull.advanced.plain.white.name=Weiße weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.orange.name=Orange weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.magenta.name=Magenta weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.lightBlue.name=Hellblaue weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.yellow.name=Gelbe weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.lime.name=Hellgrüne weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.pink.name=Rosa weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.gray.name=Graue weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.silver.name=Silberne weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.cyan.name=Cyan weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.purple.name=Lila weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.blue.name=Blaue weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.brown.name=Braune weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.green.name=Grüne weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.red.name=Rote weiterentwickelte Schiffshülle
+tile.warpdrive.hull.advanced.plain.black.name=Schwarze weiterentwickelte Schiffshülle
 
-tile.warpdrive.hull.superior.glass.white.name=Weißer überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.orange.name=Oranger überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.magenta.name=Magenta überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.lightBlue.name=Hellblauer überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.yellow.name=Gelber überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.lime.name=Lime überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.pink.name=Rosa überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.gray.name=Grauer überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.silver.name=Silberner überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.cyan.name=Cyan überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.purple.name=Lila überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.blue.name=Blauer überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.brown.name=Brauner überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.green.name=Grüner überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.red.name=Roter überlegener Glasrumpf
-tile.warpdrive.hull.superior.glass.black.name=Schwarzer überlegener Glasrumpf
+tile.warpdrive.hull.advanced.glass.white.name=Weißes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.orange.name=Oranges weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.magenta.name=Magentas weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.lightBlue.name=Hellblaues weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.yellow.name=Gelbes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.lime.name=Hellgrünes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.pink.name=Rosas weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.gray.name=Graues weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.silver.name=Silbernes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.cyan.name=Cyans weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.purple.name=Lilas weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.blue.name=Blaues weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.brown.name=Braunes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.green.name=Grünes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.red.name=Rotes weiterentwickeltes Schiffshüllenglas
+tile.warpdrive.hull.advanced.glass.black.name=Schwarzes weiterentwickeltes Schiffshüllenglas
 
-tile.warpdrive.hull.superior.omnipanel.white.name=Weiße überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.orange.name=Orange überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.magenta.name=Magenta überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.lightBlue.name=Hellblaue überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.yellow.name=Gelbe überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.lime.name=Hellgrüne überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.pink.name=Rosa überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.gray.name=Graue überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.silver.name=Silberne überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.cyan.name=Cyan überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.purple.name=Lila überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.blue.name=Blaue überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.brown.name=Braune überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.green.name=Grüne überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.red.name=Rote überlegene Omnipanel
-tile.warpdrive.hull.superior.omnipanel.black.name=Schwarze überlegene Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.white.name=Weißes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.orange.name=Oranges weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.magenta.name=Magentas weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.lightBlue.name=Hellblaues weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.yellow.name=Gelbes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.lime.name=Hellgrünes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.pink.name=Rosas weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.gray.name=Graues weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.silver.name=Silbernes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.cyan.name=Cyans weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.purple.name=Lilas weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.blue.name=Blaues weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.brown.name=Braunes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.green.name=Grünes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.red.name=Rotes weiterentwickeltes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.advanced.omnipanel.black.name=Schwarzes weiterentwickeltes Schiffshüllen-Omnipanel
 
-tile.warpdrive.hull.superior.slab.white.name=Weiße überlegene Stufe
-tile.warpdrive.hull.superior.slab.orange.name=Orange überlegene Stufe
-tile.warpdrive.hull.superior.slab.magenta.name=Magenta überlegene Stufe
-tile.warpdrive.hull.superior.slab.lightBlue.name=Hellblaue überlegene Stufe
-tile.warpdrive.hull.superior.slab.yellow.name=Gelbe überlegene Stufe
-tile.warpdrive.hull.superior.slab.lime.name=Hellgrüne überlegene Stufe
-tile.warpdrive.hull.superior.slab.pink.name=Rosa überlegene Stufe
-tile.warpdrive.hull.superior.slab.gray.name=Graue überlegene Stufe
-tile.warpdrive.hull.superior.slab.silver.name=Silberne überlegene Stufe
-tile.warpdrive.hull.superior.slab.cyan.name=Cyan überlegene Stufe
-tile.warpdrive.hull.superior.slab.purple.name=Lila überlegene Stufe
-tile.warpdrive.hull.superior.slab.blue.name=Blaue überlegene Stufe
-tile.warpdrive.hull.superior.slab.brown.name=Braune überlegene Stufe
-tile.warpdrive.hull.superior.slab.green.name=Grüne überlegene Stufe
-tile.warpdrive.hull.superior.slab.red.name=Rote überlegene Stufe
-tile.warpdrive.hull.superior.slab.black.name=Schwarze überlegene Stufe
+tile.warpdrive.hull.advanced.slabs.white.name=Weiße weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.orange.name=Orange weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.magenta.name=Magenta weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.lightBlue.name=Hellblaue weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.yellow.name=Gelbe weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.lime.name=Hellgrüne weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.pink.name=Rosa weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.gray.name=Graue weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.silver.name=Silberne weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.cyan.name=Cyan weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.purple.name=Lila weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.blue.name=Blaue weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.brown.name=Braune weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.green.name=Grüne weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.red.name=Rote weiterentwickelte Schiffshüllen-Stufe
+tile.warpdrive.hull.advanced.slabs.black.name=Schwarze weiterentwickelte Schiffshüllen-Stufe
 
-tile.warpdrive.hull.superior.stairs.white.name=Weiße überlegene Treppe
-tile.warpdrive.hull.superior.stairs.orange.name=Orange überlegene Treppe
-tile.warpdrive.hull.superior.stairs.magenta.name=Magenta überlegene Treppe
-tile.warpdrive.hull.superior.stairs.lightBlue.name=Hellblaue überlegene Treppe
-tile.warpdrive.hull.superior.stairs.yellow.name=Gelbe überlegene Treppe
-tile.warpdrive.hull.superior.stairs.lime.name=Hellgrüne überlegene Treppe
-tile.warpdrive.hull.superior.stairs.pink.name=Rosa überlegene Treppe
-tile.warpdrive.hull.superior.stairs.gray.name=Graue überlegene Treppe
-tile.warpdrive.hull.superior.stairs.silver.name=Silberne überlegene Treppe
-tile.warpdrive.hull.superior.stairs.cyan.name=Cyan überlegene Treppe
-tile.warpdrive.hull.superior.stairs.purple.name=Lila überlegene Treppe
-tile.warpdrive.hull.superior.stairs.blue.name=Blaue überlegene Treppe
-tile.warpdrive.hull.superior.stairs.brown.name=Braune überlegene Treppe
-tile.warpdrive.hull.superior.stairs.green.name=Grüne überlegene Treppe
-tile.warpdrive.hull.superior.stairs.red.name=Rote überlegene Treppe
-tile.warpdrive.hull.superior.stairs.black.name=Schwarze überlegene Treppe
+tile.warpdrive.hull.advanced.stairs.white.name=Weiße weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.orange.name=Orange weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.magenta.name=Magenta weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.lightBlue.name=Hellblaue weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.yellow.name=Gelbe weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.lime.name=Hellgrüne weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.pink.name=Rosa weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.gray.name=Graue weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.silver.name=Silberne weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.cyan.name=Cyan weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.purple.name=Lila weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.blue.name=Blaue weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.brown.name=Braune weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.green.name=Grüne weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.red.name=Rote weiterentwickelte Schiffshüllen-Treppe
+tile.warpdrive.hull.advanced.stairs.black.name=Schwarze weiterentwickelte Schiffshüllen-Treppe
+
+
+tile.warpdrive.hull.superior.plain.white.name=Weiße überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.orange.name=Orange überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.magenta.name=Magenta überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.lightBlue.name=Hellblaue überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.yellow.name=Gelbe überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.lime.name=Hellgrüne überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.pink.name=Rosa überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.gray.name=Graue überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.silver.name=Silberne überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.cyan.name=Cyan überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.purple.name=Lila überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.blue.name=Blaue überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.brown.name=Braune überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.green.name=Grüne überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.red.name=Rote überlegene Schiffshülle
+tile.warpdrive.hull.superior.plain.black.name=Schwarze überlegene Schiffshülle
+
+tile.warpdrive.hull.superior.glass.white.name=Weißes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.orange.name=Oranges überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.magenta.name=Magentas überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.lightBlue.name=Hellblaues überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.yellow.name=Gelbes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.lime.name=Hellgrünes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.pink.name=Rosas überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.gray.name=Graues überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.silver.name=Silbernes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.cyan.name=Cyans überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.purple.name=Lilas überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.blue.name=Blaues überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.brown.name=Braunes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.green.name=Grünes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.red.name=Rotes überlegenes Schiffshüllenglas
+tile.warpdrive.hull.superior.glass.black.name=Schwarzes überlegenes Schiffshüllenglas
+
+tile.warpdrive.hull.superior.omnipanel.white.name=Weißes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.orange.name=Oranges überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.magenta.name=Magentas überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.lightBlue.name=Hellblaues überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.yellow.name=Gelbes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.lime.name=Hellgrünes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.pink.name=Rosas überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.gray.name=Graues überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.silver.name=Silbernes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.cyan.name=Cyans überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.purple.name=Lilas überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.blue.name=Blaues überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.brown.name=Braunes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.green.name=Grünes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.red.name=Rotes überlegenes Schiffshüllen-Omnipanel
+tile.warpdrive.hull.superior.omnipanel.black.name=Schwarzes überlegenes Schiffshüllen-Omnipanel
+
+tile.warpdrive.hull.superior.slabs.white.name=Weiße überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.orange.name=Orange überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.magenta.name=Magenta überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.lightBlue.name=Hellblaue überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.yellow.name=Gelbe überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.lime.name=Hellgrüne überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.pink.name=Rosa überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.gray.name=Graue überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.silver.name=Silberne überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.cyan.name=Cyan überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.purple.name=Lila überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.blue.name=Blaue überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.brown.name=Braune überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.green.name=Grüne überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.red.name=Rote überlegene Schiffshüllen-Stufe
+tile.warpdrive.hull.superior.slabs.black.name=Schwarze überlegene Schiffshüllen-Stufe
+
+tile.warpdrive.hull.superior.stairs.white.name=Weiße überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.orange.name=Orange überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.magenta.name=Magenta überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.lightBlue.name=Hellblaue überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.yellow.name=Gelbe überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.lime.name=Hellgrüne überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.pink.name=Rosa überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.gray.name=Graue überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.silver.name=Silberne überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.cyan.name=Cyan überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.purple.name=Lila überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.blue.name=Blaue überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.brown.name=Braune überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.green.name=Grüne überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.red.name=Rote überlegene Schiffshüllen-Treppe
+tile.warpdrive.hull.superior.stairs.black.name=Schwarze überlegene Schiffshüllen-Treppe
+
+
+# HULLS END
 
 
 warpdrive.guide.prefix=%1$s: 
-warpdrive.error.bad_tile_entity=Dieser Block benötigt ein Update, durch zerstören und neu setzen.
+warpdrive.error.bad_tile_entity=§cDieser Block benötigt ein Update, durch zerstören und neu setzen.
 warpdrive.error.internal_check_console=Internal error, check console for details
 
-warpdrive.command.invalid_parameter=Invalid parameter %1$s
-warpdrive.command.invalid_location=Unknown world or coordinates, probably an invalid command sender in action here.
-warpdrive.command.no_container=No container found around player
-warpdrive.command.empty_inventory=Inventory is empty
-warpdrive.command.found_title=Found:
+warpdrive.command.invalid_location=unknown world or coordinates, probably an invalid command sender in action here.
+warpdrive.command.no_container=no container found around player
+warpdrive.command.found_tile=Found:
 warpdrive.command.found_line=- %1$s
 warpdrive.command.no_matching_entity=No matching entity found within %1$d blocks
 warpdrive.command.x_matching_entities=%1$d matching entities within %2$d blocks:
-warpdrive.command.only_in_space=This structure is only allowed in space!
+warpdrive.command.only_in_space=this structure is only allowed in space!
 warpdrive.command.configuration_reloaded=WarpDrive configuration has been reloaded.
 warpdrive.command.liability_warning=Use at your own risk!
-warpdrive.command.player_required=Use as a player or provide a player name!
+warpdrive.command.player_required=Use as a player or provide a player name
 warpdrive.command.player_not_found=Player not found '%1$s'
 warpdrive.command.too_many_arguments=Too many arguments %1$d
 warpdrive.command.player_in_unknown_dimension=Player %1$s is in unknown dimension %2$d.
-warpdrive.command.player_can_t_go_virtual=Player %1$s can't go to %2$s: this is a decorative/virtual celestial object!
+warpdrive.command.player_can_t_go_virtual=player %1$s can't go to %2$s: this is a virtual celestial object.
 warpdrive.command.specify_explicit_dimension=Try specifying an explicit target dimension instead.
 warpdrive.command.undefined_dimension=Undefined dimension %1$d
 warpdrive.command.teleporting_to_x=Teleporting to %1$s
@@ -664,69 +672,55 @@ warpdrive.command.lost_bed_can_t_teleport_self=Teleportation failed:\nyour bed i
 warpdrive.command.lost_bed_can_t_teleport_other=Teleportation failed for player %1$s:\nbed is no longer there in %2$s
 
 
-warpdrive.beam_frequency.tooltip=Strahlfrequenz auf %1$d gestellt.
-warpdrive.beam_frequency.get=Strahlfrequenz %2$d wurde von %1$s abgerufen.
-warpdrive.beam_frequency.set=%1$s ist jetzt mit Strahlfrequenz %2$d verknüpft.
+warpdrive.beam_frequency.tooltip=Strahlfrequenz auf %1$d gestellt
+warpdrive.beam_frequency.get=Strahlfrequenz %2$d wurde von %1$s abgerufen
+warpdrive.beam_frequency.set=%1$s ist jetzt mit Strahlfrequenz %2$d verknüpft
 warpdrive.beam_frequency.status_line.valid=Strahlfrequenz %1$d ist gültig.
-warpdrive.beam_frequency.status_line.invalid=Strahlfrequenz %1$d ist ungültig.
-warpdrive.beam_frequency.status_line.undefined=Undefinierte Strahlfrequenz.\n§bNutze eine Stimmgabel§f um die Strahlfrequenz festzulegen.
+warpdrive.beam_frequency.status_line.invalid=§cStrahlfrequenz %1$d ist ungültig.
+warpdrive.beam_frequency.status_line.undefined=§7Undefinierte Strahlfrequenz.\n§bNutze eine Stimmgabel§f um die Strahlfrequenz festzulegen.
 
-warpdrive.control_channel.tooltip=Steuerungskanal auf %1$d gestellt.
-warpdrive.control_channel.get=Steuerungskanal %2$d wurde von %1$s abgerufen.
-warpdrive.control_channel.set=%1$s ist jetzt auf Steuerungskanal %2$d gestellt.
+warpdrive.control_channel.tooltip=Steuerungskanal auf %1$d gestellt
+warpdrive.control_channel.get=Steuerungskanal %2$d wurde von %1$s abgerufen
+warpdrive.control_channel.set=%1$s ist jetzt auf Steuerungskanal %2$d gestellt
 warpdrive.control_channel.status_line.valid=Steuerungskanal %1$d ist gültig.
-warpdrive.control_channel.status_line.invalid=Steuerungskanal %1$d ist ungültig.
-warpdrive.control_channel.status_line.undefined=Nicht definierter Steuerungskanal.\n§bNutze eine Stimmgabel§r um ihn einzustellen.
+warpdrive.control_channel.status_line.invalid=§cSteuerungskanal %1$d ist ungültig.
+warpdrive.control_channel.status_line.undefined=§7Nicht definierter Steuerungskanal.\n§bNutze eine Stimmgabel§r um ihn einzustellen.
 
 warpdrive.is_enabled.set.enabled=Switched ON!
 warpdrive.is_enabled.set.disabled=Switched off!
-
-# %1 is signature name, %2 is item name, %3 is block name
-warpdrive.core_signature.tooltip=Signature is set to %1$d
-warpdrive.core_signature.get_missing=%3$s has no signature yet!
-warpdrive.core_signature.get_same=%2$s is already linked to %1$s.
-warpdrive.core_signature.get=%2$s is now linked to %1$s.
-warpdrive.core_signature.set_not_supported=You can't change the signature of a %3$s.
-warpdrive.core_signature.set_missing=%2$s needs to be linked first!
-warpdrive.core_signature.set_same=%3$s is already linked to %1$s.
-warpdrive.core_signature.set=%3$s is now linked to %1$s.
-warpdrive.core_signature.status_line.defined=Signature is %1$d.\n§bRight-click a remote controller§r to apply this signature.
-warpdrive.core_signature.status_line.undefined=Undefined signature.\n§bSneak right-click§r a core or controller to set it.
-warpdrive.core_signature.status_line.unknown_core_signature=Unknown core signature!
-warpdrive.core_signature.status_line.world_not_loaded=Core world is not loaded!
 
 warpdrive.tooltip.item_tag.breathing_helmet=§bRaumatmung§r verbraucht Luftkanister oder IC2 Druckluftzellen.
 warpdrive.tooltip.item_tag.fly_in_space=§bRaumtaugliches Jetpack§r.
 warpdrive.tooltip.item_tag.no_fall_damage=§bAbsorbiert Fallschaden§r.
 
-warpdrive.upgrade.result.no_upgrade_to_dismount=Kein Upgrade zum deinstallieren vorhanden.
-warpdrive.upgrade.result.not_enough_upgrades=Du brauchst mindestens 1 Item um diesen Block aufzuwerten.
-warpdrive.upgrade.result.invalid_upgrade=Dies ist kein gültiges Item, um diesen Block upzugraden.
-warpdrive.upgrade.result.invalid_upgrade_for_projector=Dieses Upgrade ist zu groß für einen Projektor. Nutze ein Relais.
-warpdrive.upgrade.result.invalid_upgrade_for_relay=Dieses Upgrade funktioniert nur bei Projektoren!
+warpdrive.upgrade.result.no_upgrade_to_dismount=§cKein Upgrade zum deinstallieren vorhanden.
+warpdrive.upgrade.result.not_enough_upgrades=§cDu brauchst mindestens 1 Item um diesen Block aufzuwerten.
+warpdrive.upgrade.result.invalid_upgrade=§cDies ist kein gültiges Item, um diesen Block upzugraden.
+warpdrive.upgrade.result.invalid_upgrade_for_projector=§cDieses Upgrade ist zu groß für einen Projektor. Nutze ein Relais.
+warpdrive.upgrade.result.invalid_upgrade_for_relay=§cDieses Upgrade funktioniert nur bei Projektoren!
 warpdrive.upgrade.result.valid_upgrades=Gültige Upgrades für diesen Block sind: %1$s. @TODO noch nicht implementiert
-warpdrive.upgrade.result.too_many_upgrades=Es sind schon %1$d Upgrades installiert.
+warpdrive.upgrade.result.too_many_upgrades=§cEs sind schon %1$d Upgrades installiert.
 warpdrive.upgrade.result.dismounted=Upgrade %1$s erfolgreich deinstalliert.
 warpdrive.upgrade.result.mounted=Upgrade %1$s erfolgreich installiert.
 
-warpdrive.upgrade.result.wrong_shape_side=Auf dieser Seite gibt es keinen Elektromagnetischen Projektor.
-warpdrive.upgrade.result.no_shape_to_dismount=Keine Form zum deinstallieren vorhanden.
-warpdrive.upgrade.result.not_enough_shapes.double=Du brauchst mindestens 2 Items um einen doppelseitigen Projektor einzustellen.
-warpdrive.upgrade.result.not_enough_shapes.single=Du brauchst mindestens 1 Item um einen einseitigen Projektor einzustellen.
+warpdrive.upgrade.result.wrong_shape_side=§cAuf dieser Seite gibt es keinen Elektromagnetischen Projektor.
+warpdrive.upgrade.result.no_shape_to_dismount=§cKeine Form zum deinstallieren vorhanden.
+warpdrive.upgrade.result.not_enough_shapes.double=§cDu brauchst mindestens 2 Items um einen doppelseitigen Projektor einzustellen.
+warpdrive.upgrade.result.not_enough_shapes.single=§cDu brauchst mindestens 1 Item um einen einseitigen Projektor einzustellen.
 warpdrive.upgrade.result.shape_dismounted=Form erfolgreich deinstalliert.
 warpdrive.upgrade.result.shape_mounted=Form erfolgreich installiert.
 
 warpdrive.upgrade.status_line.none=§7Kein Upgrade installiert.
 warpdrive.upgrade.status_line.valid=%1$s Upgrade installiert.
 
-warpdrive.video_channel.tooltip=Videokanal auf %1$d gestellt.
-warpdrive.video_channel.get=Videokanal %2$d wurde von %1$s abgerufen.
-warpdrive.video_channel.set=%1$s ist jetzt auf Videokanal %2$d gestellt.
+warpdrive.video_channel.tooltip=Videokanal auf %1$d gestellt
+warpdrive.video_channel.get=Videokanal %2$d wurde von %1$s abgerufen
+warpdrive.video_channel.set=%1$s ist jetzt auf Videokanal %2$d gestellt
 warpdrive.video_channel.status_line.valid_self=Videokanal %1$d ist gültig.
 warpdrive.video_channel.status_line.valid_other=Videokanal %1$d ist gültig für die Kamera bei %2$s.
-warpdrive.video_channel.status_line.invalid=Videokanal %1$d ist ungültig.
-warpdrive.video_channel.status_line.not_loaded=Videokanal %1$d ist ungültig oder die Kamera ist zu weit weg!
-warpdrive.video_channel.status_line.undefined=Nicht definierter Videokanal.\n§bNutze eine Stimmgabel§r um ihn einzustellen.
+warpdrive.video_channel.status_line.invalid=§cVideokanal %1$d ist ungültig.
+warpdrive.video_channel.status_line.not_loaded=§cVideokanal %1$d ist ungültig oder die Kamera ist zu weit weg!
+warpdrive.video_channel.status_line.undefined=§7Nicht definierter Videokanal.\n§bNutze eine Stimmgabel§r um ihn einzustellen.
 
 
 warpdrive.accelerator.guide.low_power.not_enough_storage=Energiespeicher zu klein; wir brauchen mindestens %1$d um den Betrieb fortzusetzen, können aber nur %2$d speichern.
@@ -740,32 +734,32 @@ warpdrive.breathing.low_reserve=Luftreserve niedrig!
 warpdrive.breathing.no_air=Keine Luft mehr!
 
 warpdrive.builder.guide.deploying_out_of_range=Cannot deploy ship more than %1$d blocks away from scanner.
-warpdrive.builder.guide.deployment_area_occupied_by_blocks=Unable to deploy! Area is already occupied by %1$d blocks.
+warpdrive.builder.guide.deployment_area_occupied_by_blocks=Deployment area occupied with %1$d blocks. Can't deploy ship.
 warpdrive.builder.guide.deploying_ship=Deploying ship '%1$s'...
-warpdrive.builder.guide.deployment_area_occupied_by_block=Unable to deploy new ship at (%2$d %3$d %4$d)!\nArea is already occupied by %1$s.
+warpdrive.builder.guide.deployment_area_occupied_by_block=Deployment area occupied by %1$s.\nCan't deploy new ship at (%2$d %3$d %4$d)
 warpdrive.builder.guide.deployment_area_corrupted_tile_entity=Deployment area occupied with invalid tile entity %1$s for ship core.
-warpdrive.builder.guide.contact_an_admin=Contact an admin for help %1$s.
+warpdrive.builder.guide.contact_an_admin=Contact an admin for help %1$s
 warpdrive.builder.guide.deployment_area_with_active_crew=Deployment area occupied by active crew %s.
-warpdrive.builder.guide.wait_your_turn=Please wait or use another deployment spot.
+warpdrive.builder.guide.wait_your_turn=Please wait or use another deployment spot
 warpdrive.builder.guide.deployment_area_is_busy=Deployment area is busy.
 warpdrive.builder.guide.deployment_area_occupied_by_your_ship1=Deployment area occupied by your ship, captain %1$s!
-warpdrive.builder.guide.deployment_area_occupied_by_your_ship2=Come back inside and use the computer to jump away.
-warpdrive.builder.guide.deployment_area_occupied_by_online_player1=Deployment area occupied with ship owned by %1$s!
-warpdrive.builder.guide.deployment_area_occupied_by_online_player2=Contact that player or use another deployment spot.
+warpdrive.builder.guide.deployment_area_occupied_by_your_ship2=Come back inside and use the computer to jump away!
+warpdrive.builder.guide.deployment_area_occupied_by_online_player1=Deployment area occupied with ship owned by %1$s.
+warpdrive.builder.guide.deployment_area_occupied_by_online_player2=Contact that player or use another deployment spot
 
 warpdrive.builder.guide.too_many_players=Too many players detected: please stand in the beam one at a time.
 warpdrive.builder.guide.no_ship_token=Please come back once you've a Ship token.
 warpdrive.builder.guide.ship_token_detected=Ship token '%1$s' detected!
-warpdrive.builder.guide.ship_materialization_countdown=Stand by for ship materialization in %2$d...
-warpdrive.builder.guide.ship_deployed=Ship deployed. Teleporting captain to the main deck...
-warpdrive.builder.guide.welcome_aboard=Welcome aboard captain! Use the computer to get moving...
+warpdrive.builder.guide.ship_materialization_countdown=Stand by for ship materialization in %1$d...
+warpdrive.builder.guide.ship_deployed=Ship deployed. Teleporting captain to the main deck
+warpdrive.builder.guide.welcome_aboard=Welcome aboard captain. Use the computer to get moving...
 
 warpdrive.cloaking_core.missing_channeling_and_projecting_coils=Integrity down to %1$d%%: missing channeling coil(s) towards %2$s and projecting coil(s) towards %3$s !!!
 warpdrive.cloaking_core.missing_channeling_coils=Integrity down to %1$d%%: missing channeling coil(s) towards %2$s !!!
 warpdrive.cloaking_core.missing_projecting_coils=Integrity down to %1$d%%: missing projecting coil(s) towards %2$s !!!
 warpdrive.cloaking_core.valid=System is valid !!!
 warpdrive.cloaking_core.disabled=Tarnfeld ist deaktiviert!
-warpdrive.cloaking_core.low_power=Tarnfeld ist ausgefallen, wir brauchen mehr Energie, Captain!
+warpdrive.cloaking_core.low_power=§cTarnfeld ist ausgefallen, wir brauchen mehr Energie, Captain!
 warpdrive.cloaking_core.cloaking=Ein Stufe %1$d Tarnfeld überdeckt jetzt %2$d Blöcke!
 
 warpdrive.compat.guide.block_detected_on_board=%1$s detected on board!
@@ -782,7 +776,7 @@ warpdrive.energy.side.changed_to_disabled=%1$s Seite auf Deaktiviert gestellt!
 
 warpdrive.force_field.guide.low_power=Uns geht die Energie aus, Captain. Verringere unseren Energieverbrauch oder hol den schottischen Ingenieur!
 
-warpdrive.force_field.shape.status_line.none=Form ist nicht definiert
+warpdrive.force_field.shape.status_line.none=§cForm ist nicht definiert
 warpdrive.force_field.shape.status_line.double=Die Form ist ein(e) volle(r) %1$s
 warpdrive.force_field.shape.status_line.single=Die Form ist ein(e) halbe(r) %1$s
 warpdrive.force_field.shape.status_line.sphere=Kugel
@@ -857,30 +851,27 @@ warpdrive.security_station.guide.registered_players=Verbundene Spieler: %1$s
 warpdrive.security_station.guide.player_registered=You're now registered on this security station.\nRegistered players are %1$s
 warpdrive.security_station.guide.player_unregistered=You've been unregistered from this security station.\nAttached players are %1$s
 
-# Note for translators: you want to keep each line shorter than 50 characters so that it fits on computer screens.
 warpdrive.ship.guide.cooling_countdown=Ship core is cooling down... %1$d s to go...
 warpdrive.ship.guide.pre_jumping=Running pre-jump checklist...
 warpdrive.ship.guide.warming_up=Ship core is warming up... %1$d s to go...
-warpdrive.ship.guide.movement_aborted=Movement aborted!
-warpdrive.ship.guide.insufficient_energy=Insufficient energy in core.
-warpdrive.ship.guide.warp_field_overlapping=Own warp field contains another ship.\nDisable ship core %1$s to continue.
-warpdrive.ship.guide.cloaking_field_overlapping=Core is cloaked.\nDisable cloak to continue.
+warpdrive.ship.guide.insufficient_energy=Insufficient energy to jump! Core is currently charged with %1$s %3$s while jump requires %2$s %3$s
+warpdrive.ship.guide.warp_field_overlapping=Warp field intersects with other ship's field. Disable the other ship core to jump.
+warpdrive.ship.guide.cloaking_field_overlapping=Core is inside a cloaking field. Aborting. Disable cloaking field to jump!
 warpdrive.ship.guide.pre_jump_success=Ok
-warpdrive.ship.guide.no_dimension_set=Ship has no dimension set yet.
-warpdrive.ship.guide.too_large_side_for_tier=Ship is too large, max is %1$d per side.\nUpgrade ship core or reduce span.
-warpdrive.ship.guide.too_much_mass_for_planet=Ship is too big for a planet.\nReduce your mass below %1$d blocks.
-warpdrive.ship.guide.insufficient_mass_for_tier=Ship is too small, min is %1$d block.\nDowngrade ship core or increase mass.
-warpdrive.ship.guide.too_much_mass_for_tier=Ship is too big, max is %1$d blocks.\nUpgrade ship core or reduce your mass.
-warpdrive.ship.guide.insufficient_mass_for_hyperspace=Ship is too small to engage Alcubierre drive.\nIncrease your mass to %2$d.
-warpdrive.ship.guide.jumpgate_is_too_far=Ship is not inside a jumpgate.
-warpdrive.ship.guide.jumpgate_partially_entered=Ship is only %.1f%% inside a jumpgate.\nSorry, we'll loose too much crew as is.
-warpdrive.ship.guide.jumpgate_not_defined=Destination jumpgate '%1$s' is unknown.
-warpdrive.ship.guide.jumpgate_blocked=Destination gate is blocked by obstacles.
-warpdrive.ship.guide.target_outside_planet_border=Target position is outside planet border!\nWorld borders are (%1$d %2$d %3$d) to (%4$d %5$d %6$d).
+warpdrive.ship.guide.too_large_side_for_tier=Ship is too large for its category (max is %1$d per side)\nUpgrade your ship core or reduce your span!
+warpdrive.ship.guide.too_much_mass_for_planet=Ship is too big for a planet (max is %1$d blocks while ship mass is %2$d blocks).\nReduce your mass!
+warpdrive.ship.guide.insufficient_mass_for_tier=Ship is too small for its category (%2$d < %1$d).\nDowngrade your ship core or increase your mass!
+warpdrive.ship.guide.too_much_mass_for_tier=Ship is too big for its category (%2$d > %1$d).\nUpgrade your ship core or reduce your mass!
+warpdrive.ship.guide.insufficient_mass_for_hyperspace=Ship is too small to engage Alcubierre drive (%1$d/%2$d).\nIncrease your mass to reach hyperspace.
+warpdrive.ship.guide.jumpgate_is_too_far=Ship is not inside a jumpgate. Jump rejected.
+warpdrive.ship.guide.jumpgate_partially_entered=Ship is only %.1f%% inside a jumpgate. Sorry, we'll loose too much crew as is, jump rejected.
+warpdrive.ship.guide.jumpgate_not_defined=Destination jumpgate '%1$s' is unknown. Check jumpgate name.
+warpdrive.ship.guide.jumpgate_blocked=Destination gate is blocked by obstacles. Aborting...
+warpdrive.ship.guide.target_outside_planet_border=Target ship position is outside planet border, unable to jump!\nWorld borders are (%1$d %2$d %3$d) to (%4$d %5$d %6$d).
 warpdrive.ship.guide.invalid_y_coordinates=Invalid Y coordinate(s), check ship dimensions...
 warpdrive.ship.guide.invalid_state=Invalid state, aborting jump...
-warpdrive.ship.guide.overlapping_source_and_target=Target is too close. Increase jump distance to continue.
-warpdrive.ship.guide.not_enough_space_after_adjustment=Not enough space after adjustment.
+warpdrive.ship.guide.overlapping_source_and_target=Source and target areas are overlapping, jump aborted! Try increasing jump distance...
+warpdrive.ship.guide.not_enough_space_after_adjustment=\nNot enough space after adjustment, jump aborted!
 warpdrive.ship.guide.entering_hyperspace=Entering hyperspace...
 warpdrive.ship.guide.leaving_hyperspace=Leaving hyperspace...
 warpdrive.ship.guide.engaging_jumpgate_x=Engaging jumpgate towards %1$s!
@@ -888,35 +879,38 @@ warpdrive.ship.guide.jumping_xyz=Jumping of %1$d blocks (XYZ %2$d %3$d %4$d)
 warpdrive.ship.guide.turning_right=Turning to the right
 warpdrive.ship.guide.turning_back=Turning back
 warpdrive.ship.guide.turning_left=Turning to the left
-warpdrive.ship.guide.anchor_block_detected=On-board anchor block %1$s detected at (%2$d %3$d %4$d).
-warpdrive.ship.guide.anchor_entity_detected=Anchor entity %1$s detected at (%2$d %3$d %4$d).
-warpdrive.ship.guide.block_not_ready_for_jump=On-board block %1$s at (%2$d %3$d %4$d) is not ready.
+warpdrive.ship.guide.anchor_block_detected=Jump aborted by on-board anchor block %1$s at (%2$d %3$d %4$d).
+warpdrive.ship.guide.anchor_entity_detected=Anchor entity %1$s detected at (%2$d %3$d %4$d), aborting jump...
+warpdrive.ship.guide.block_not_ready_for_jump=Jump aborted by on-board block %1$s at (%2$d %3$d %4$d).
 warpdrive.ship.guide.ship_snagged1=Ship snagged by %1$s at (%2$d %3$d %4$d).
 warpdrive.ship.guide.ship_snagged2=Sneak right click the ship core to see your ship dimensions, then update your ship dimensions.
-warpdrive.ship.guide.save_exception=Exception while saving ship block %1$s.\nCheck console for details.
-warpdrive.ship.guide.chunkloading_rejected_in_source_world=Chunkloading rejected in source world %1$s.
-warpdrive.ship.guide.too_many_chunks_to_load=Ship extends over %1$d chunks.\nMax is set to %2$d in config/forgeChunkLoading.cfg.
-warpdrive.ship.guide.max_chunkloading=Close the game, update config/forgeChunkLoading.cfg, then try again.
+warpdrive.ship.guide.corrupted_block=Exception while saving ship, probably a corrupted block %1$s.
+warpdrive.ship.guide.chunkloading_rejected_in_source_world=Chunkloading rejected in source world %1$s. Aborting.
+warpdrive.ship.guide.too_many_source_chunks_to_load=Ship is extending over %1$d chunks in source world.
+warpdrive.ship.guide.max_chunkloading=Max is currently set to %2$d in config/forgeChunkLoading.cfg. Aborting.\nClose the game, change your config/forgeChunkLoading.cfg configuration and try again.
 warpdrive.ship.guide.chunkloading_rejected_in_target_world=Chunkloading rejected in target world %s. Aborting.
+warpdrive.ship.guide.too_many_target_chunks_to_load=Ship is extending over %1$d chunks in target world.
 warpdrive.ship.guide.no_celestial_object_in_hyperspace=No star system exists in %1$s (%2$d), there's nowhere to exit hyperspace!
-warpdrive.ship.guide.no_star_system_in_range=Ship won't survive in deep space.\nClosest star system is ~%1$d m away (%2$d %3$d %4$d) to (%5$d %6$d %7$d).
-warpdrive.ship.guide.exception_loading_dimension=Unable to load dimension %1$d.\nCheck console for a missing mod or configuration.
-warpdrive.ship.guide.unable_to_reach_hyperspace_from_planet=Unable to engage Alcubierre drive on a planet.\nGet into orbit, then try again.
-warpdrive.ship.guide.unable_to_reach_hyperspace_no_parent=Current location has no hyperspace connection.\nThere's no parent defined for %1$s (%2$d).
-warpdrive.ship.guide.unable_to_reach_space_no_parent=Current location as no space connection.\nThere's no parent defined for %1$s (%2$d).
-warpdrive.ship.guide.unable_to_reach_space_outside_border=Ship is outside planet border.\nClosest transition area is ~%1$d m away (%2$d %3$d %4$d) to (%5$d %6$d %7$d).
-warpdrive.ship.guide.no_celestial_object_in_space=There's nowhere to land.\nNo planet exists in %1$s (%2$d).
-warpdrive.ship.guide.unable_to_land_outside_orbit=Ship isn't orbiting of planet, unable to land!\nClosest planet is %1$d m away (%2$d %3$d %4$d) to (%5$d %6$d %7$d).
-warpdrive.ship.guide.unable_to_land_virtual_planet=Celestial object %1$s is out of reach.\nIt's either a decorative planet or a server misconfiguration.
-warpdrive.ship.guide.ship_collision=Collision detected around (%1$d %2$d %3$d).\nSend a maintenance team to check for damages!
-warpdrive.ship.guide.impassable_block_detected=Impassable %1$s detected at (%2$d %3$d %4$d).
+warpdrive.ship.guide.no_star_system_in_hyperspace=Ship is outside any star system, unable to exit hyperspace!\nClosest start system is ~%1$d m away (%2$d %3$d %4$d) to (%5$d %6$d %7$d).
+warpdrive.ship.guide.unable_to_load_space_dimension=Unable to load Space dimension %1$d, aborting jump.
+warpdrive.ship.guide.unable_to_reach_hyperspace_from_planet=Unable to reach hyperspace from a planet!
+warpdrive.ship.guide.unable_to_reach_hyperspace_no_parent=Unable to reach hyperspace!\nThere's no parent defined for %1$s (%2$d).
+warpdrive.ship.guide.unable_to_load_hyperspace_dimension=Unable to load Hyperspace dimension %1$d, aborting jump.
+warpdrive.ship.guide.unable_to_reach_space_no_parent=There's no parent defined for %1$s (%2$d), unable to reach space!
+warpdrive.ship.guide.unable_to_reach_space_outside_border=Ship is outside planet border, unable to reach space!\nClosest transition area is ~%1$d m away (%2$d %3$d %4$d) to (%5$d %6$d %7$d).
+warpdrive.ship.guide.no_celestial_object_in_space=No planet exists in %1$s (%2$d), there's nowhere to land!
+warpdrive.ship.guide.unable_to_land_outside_orbit=We're not in orbit of planet, unable to land!\nClosest planet is %1$d m away (%2$d %3$d %4$d) to (%5$d %6$d %7$d).
+warpdrive.ship.guide.unable_to_land_virtual_planet=Sorry, we can't go to %1$s. This is a virtual celestial object. It's either a decorative planet or a server misconfiguration.
+warpdrive.ship.guide.unable_to_land_invalid_id=Sorry, we can't land on %1$s because dimension %2$d isn't defined. It might be a missing mod or a server misconfiguration.
+warpdrive.ship.guide.ship_collision=Ship collision detected around (%1$d %2$d %3$d). Damage report pending...
+warpdrive.ship.guide.impassable_block_detected=Impassable %1$s detected at destination (%2$d %3$d %4$d).
 warpdrive.ship.guide.obstacle_block_detected=Obstacle %1$s detected at (%2$d %3$d %4$d).
-warpdrive.ship.guide.entering_protected_area=Entering protected area at (%1$d %2$d %3$d).
+warpdrive.ship.guide.entering_protected_area=Ship is entering a protected area at (%1$d %2$d %3$d).
 warpdrive.ship.guide.moving_too_high=Ship core is moving too high.
 warpdrive.ship.guide.moving_too_low=Ship core is moving too low.
+warpdrive.ship.guide.jump_aborted=Jump aborted!
 warpdrive.ship.guide.jump_done=Jump done
 warpdrive.ship.guide.schematic_not_found=Schematic not found or unknown error reading it: '%1$s'.
-warpdrive.ship.guide.schematic_invalid_format=Invalid schematic format: %1$s
 
 warpdrive.ship.status_line.cooling=%1$d s Abklingzeit verbleibend.
 warpdrive.ship.status_line.isolation=%1$d aktive Isolations Blöcke bieten %2$s%% Absorption.
@@ -924,14 +918,14 @@ warpdrive.ship.status_line.isolation=%1$d aktive Isolations Blöcke bieten %2$s%
 warpdrive.teleportation.guide.no_safe_spot=No safe spot found to summon player %1$s
 
 warpdrive.transporter.status_line.from_to=Von (%1$.0f %2$.0f %3$.0f) zu (%4$.0f %5$.0f %6$.0f)
-warpdrive.transporter_signature.status_line.invalid=No transporter room linked
+warpdrive.transporter_signature.status_line.invalid=§cNo transporter room linked
 warpdrive.transporter_signature.status_line.valid=Linked to transporter room %1$s\n§8%2$s
-warpdrive.transporter_signature.get_missing=Transporter room has no signature yet!
-warpdrive.transporter_signature.get_same=Transporter beacon is already linked to %1$s.
+warpdrive.transporter_signature.get_missing=§cTransporter room has no signature yet!
+warpdrive.transporter_signature.get_same=§cTransporter beacon is already linked to %1$s.
 warpdrive.transporter_signature.get=Transporter beacon is now linked to %1$s.
-warpdrive.transporter_signature.set_missing=Transporter beacon needs to be linked first!
-warpdrive.transporter_signature.set_self=Transporter room can't target itself!
-warpdrive.transporter_signature.set_same=Transporter room is already linked to %1$s.
+warpdrive.transporter_signature.set_missing=§cTransporter beacon needs to be linked first!
+warpdrive.transporter_signature.set_self=§cTransporter room can't target itself!
+warpdrive.transporter_signature.set_same=§cTransporter room is already linked to %1$s.
 warpdrive.transporter_signature.set=Transporter room is now linked to %1$s.
 
 warpdrive.world_border.in_range=Proximity alert: world border is only %1$d m away!
